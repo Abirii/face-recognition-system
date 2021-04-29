@@ -21,12 +21,30 @@
 3. Create embedding dataset by open new py file and type
  ```
  import dataset
+ import recognition
+ 
  dataset.create('embedding_data')
+ recognition.append_from_directory()
  ```
  After npy file should be created names embedding_data.npy, 
  this file hold the embedding vectors(person_name, embedding) for each image in step 2
 
  
-
+ ### recognition
+ After steps 1-3 you can start recognition by type
+ ```
+  import recognition
+  import utils
+  result = recognition.recognition_from_dataset('PATH_TO_IMAGE')
+  utils.show_image(image=result, size=(1000,1000))
+ ```
+ press 'q' to close the resuls
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 
