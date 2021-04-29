@@ -46,10 +46,10 @@ Based on [face_recognition](https://github.com/ageitgey/face_recognition) librar
  press 'q' to close the resuls
  
  ### Requirements
- numpy  
- dlib  
- face_recognition  
- opencv
+  ```numpy  ``` 
+  ```dlib  ``` 
+  ```face_recognition ```  
+  ```opencv ```
  
  
  
