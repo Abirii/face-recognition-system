@@ -1,6 +1,7 @@
 # Face recognition system
 
-Based on face_recognition library 
+Based on [face_recognition](https://github.com/ageitgey/face_recognition) library 
+
 
 ### Upload your images and create dataset
 1. Each image should have its directory, i.e single image in each directory
