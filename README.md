@@ -1,6 +1,6 @@
 # Face recognition system
 
-### Upload your images
+### Upload your images and create dataset
 1. Each image should have its directory, i.e single image in each directory
 2. Place the images you want in the system under DATA/train 
 ###### NOTE: Each image should have only one person
@@ -18,6 +18,15 @@
      ...
      ...
 ```
-
+3. Create embedding dataset by open new py file and type
+ ```
+ import dataset
+ dataset.create('embedding_data')
+ ```
+ After npy file should be created names embedding_data.npy.
+ This file hold the embedding vectors(person_name, embedding) for each image in step 2
 
  
+
+ 
+
