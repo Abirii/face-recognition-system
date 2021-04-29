@@ -45,8 +45,17 @@ Based on [face_recognition](https://github.com/ageitgey/face_recognition) librar
  ```
  press 'q' to close the resuls
  
+ ### Requirements
+ numpy  
+ dlib  
+ face_recognition  
+ opencv
  
- ### Resources
+ 
+ 
+ 
+ 
+ #### Resources
  [face-recognition 1.3.0](https://pypi.org/project/face-recognition/)  
 
  [Face Recognition](https://github.com/ageitgey/face_recognition)
