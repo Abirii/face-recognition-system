@@ -23,7 +23,8 @@
  import dataset
  dataset.create('embedding_data')
  ```
- After npy file should be created names embedding_data.npy.
+ After npy file should be created names embedding_data.npy.  
+ 
  This file hold the embedding vectors(person_name, embedding) for each image in step 2
 
  
