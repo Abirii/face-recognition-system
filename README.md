@@ -1,5 +1,7 @@
 # Face recognition system
 
+Based on face_recognition library 
+
 ### Upload your images and create dataset
 1. Each image should have its directory, i.e single image in each directory
 2. Place the images you want in the system under DATA/train 
@@ -35,14 +37,17 @@
  ```
   import recognition
   import utils
-  result = recognition.recognition_from_dataset('PATH_TO_IMAGE')
+  result = recognition.recognition_from_dataset('PATH_TO_IMAGE', detection_method='hog')
   utils.show_image(image=result, size=(1000,1000))
  ```
+ you can use 'hog' or 'cnn' for detection
  press 'q' to close the resuls
  
  
- 
- 
+ ### Resources
+ [face-recognition 1.3.0](https://pypi.org/project/face-recognition/)
+ [Face Recognition](https://github.com/ageitgey/face_recognition)
+
  
  
  
