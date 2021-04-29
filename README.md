@@ -25,8 +25,9 @@ Based on [face_recognition](https://github.com/ageitgey/face_recognition) librar
  ```
  import dataset
  import recognition
- 
+ # create npy.file
  dataset.create('embedding_data')
+ # append all the images 
  recognition.append_from_directory()
  ```
  After npy file should be created names embedding_data.npy, 
