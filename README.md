@@ -6,17 +6,18 @@
 ###### NOTE: Each image should have only one person
 
 ```
-Data
-  train
-     person1
+/Data
+  /train
+     /person1
        person1.jpg
-     person2
+     /person2
         person1.jpg
-     person3
+     /person3
         person1.jpg
      ...
      ...
      ...
-
 ```
+
+
  
