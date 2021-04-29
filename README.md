@@ -45,7 +45,8 @@ Based on face_recognition library
  
  
  ### Resources
- [face-recognition 1.3.0](https://pypi.org/project/face-recognition/)
+ [face-recognition 1.3.0](https://pypi.org/project/face-recognition/)  
+
  [Face Recognition](https://github.com/ageitgey/face_recognition)
 
  
