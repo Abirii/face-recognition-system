@@ -37,10 +37,10 @@ Based on face_recognition library
  ```
   import recognition
   import utils
+  # use 'hog' or 'cnn' for detection
   result = recognition.recognition_from_dataset('PATH_TO_IMAGE', detection_method='hog')
   utils.show_image(image=result, size=(1000,1000))
  ```
- you can use 'hog' or 'cnn' for detection
  press 'q' to close the resuls
  
  
